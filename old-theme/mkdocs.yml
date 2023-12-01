@@ -1,0 +1,78 @@
+site_name: Cloud Notebook
+site_description: 'my cloud notebook...'
+site_author: 'Gary Zeien'
+site_url: 'https://gzeien.github.io/cloud-notebook'
+
+nav:
+#  - Basics: basics/Purpose.md
+  - Looking across clouds: basics/cloud-provider-service-summary.md
+  - Cross Cloud Notes:
+      - Security Control Model: common-security/threat-models.md
+      - Understanding Kafka:  common-notes/kafka.md
+      - Understanding K8S request & limits: common-notes/understanding-k8s-requests-limits.md
+  - AWS:
+      - Purpose: cloud-aws-cloud/Purpose.md
+      - Organizations and Accounts: cloud-aws-cloud/understanding-regions-accounts.md
+      - Regional Services View: cloud-aws-cloud/understanding-regions-services.md
+      - Operations Management: cloud-aws-cloud/ops-mgmt.md
+      - Security:
+          - IAM: cloud-aws-cloud/security-iam.md
+#          - Security Token Service (STS): cloud-aws-cloud/security-sts.md
+          - Controls and Auditing: cloud-aws-cloud/security-services.md
+          - Key Management: cloud-aws-cloud/key-management-services.md
+#          - Params and Secrets:  cloud-aws-cloud/params-secrets.md
+      - Compute & Storage:
+          - EC2 & AutoScaling: cloud-aws-cloud/ec2.md
+          - Spot Instances: cloud-aws-cloud/ec2-spot.md
+          - Placement Groups: cloud-aws-cloud/ec2-placement.md
+          - EBS and EFS: cloud-aws-cloud/storage-ebs-efs.md
+          - Storage Gateway: cloud-aws-cloud/storage-gateway.md
+          - S3:  cloud-aws-cloud/s3.md
+      - Networking:
+          - VPC Overview: cloud-aws-cloud/network-services.md
+          - VPC Connectivity: cloud-aws-cloud/connectivity-services.md
+          - DNS, ENI, etc...: cloud-aws-cloud/connectivity-etc.md
+          - CloudFront & Global Accelerator: cloud-aws-cloud/network-cloudfront.md
+      - Containers: cloud-aws-cloud/containers.md
+      - Integration via Qs & Streams:  cloud-aws-cloud/integation.md
+      - Databases: cloud-aws-cloud/databases.md
+      - Caching: cloud-aws-cloud/elasticache.md
+      - Data Replication, Backup, Sync: cloud-aws-cloud/data-replication.md
+      - Serverless: cloud-aws-cloud/serverless.md
+      - CloudWatch: cloud-aws-cloud/cloudwatch.md
+  - Google Cloud:
+      - Purpose: cloud-google-cloud/Purpose.md
+      - Fundamentals of GCP: cloud-google-cloud/fundamentals.md
+      - Google Architecture Framework: cloud-google-cloud/arch-framework.md
+      - Regions and Accounts: cloud-google-cloud/understanding-regions-accounts.md
+      - IAM: cloud-google-cloud/iam.md
+      - Compute Engine:  cloud-google-cloud/compute-engine.md
+      - Kubernetes Engine: cloud-google-cloud/kubernetes-engine.md
+      - Serverless: cloud-google-cloud/serverless.md
+      - Storage: cloud-google-cloud/gcp-storage.md
+      - Databases: cloud-google-cloud/gcp-databases.md
+      - Networking: cloud-google-cloud/network-services.md
+      - Security: cloud-google-cloud/security-services.md
+      - Key Management: cloud-google-cloud/key-management-services.md
+      - App Integration:  cloud-google-cloud/gcp-app-integration.md
+      - Big Data: cloud-google-cloud/gcp-big-data.md
+  - MS Azure:
+      - Purpose: cloud-microsoft-cloud/Purpose.md
+  - IBM Cloud:
+      - Purpose: cloud-ibm-cloud/Purpose.md
+      - Regions and Accounts: cloud-ibm-cloud/understanding-regions-accounts.md
+      - Networking: cloud-ibm-cloud/network-services.md
+      - Security: cloud-ibm-cloud/security-services.md
+      - Key Management: cloud-ibm-cloud/key-management-services.md
+theme:
+  name: readthedocs
+# Default settings
+  collapse_by_default: false
+  highlightjs: true
+plugins:
+  - search # necessary for search to work
+  - git-revision-date-localized
+extra_css: [extra.css]
+markdown_extensions:
+    - toc:
+        permalink: "#"
