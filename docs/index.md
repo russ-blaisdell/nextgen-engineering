@@ -16,4 +16,4 @@ Since, I work with a number of public, and private, cloud providers and architec
 
 I hope you find this approach as helpful as I have.
 
-   - Russ Blaisdell  [garyzeien.com](https://garyzeien.com)
+   - Russ Blaisdell  [russblaisdell@linkedin](https://www.linkedin.com/in/russ-blaisdell-aa7975/)
