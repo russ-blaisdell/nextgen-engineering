@@ -8,7 +8,7 @@ The purpose of this github site is to provide a way to publish and share informa
 
 In this site, you will find architectural walkthroughs that I've created to help me understand, and explain to others, key aspects such as security, networking, applicability and the values and implications of adoption these technologies, designs and approaches.  
 
-These walkthroughs follow an approach that I've found adopted from a close friend and colleague of mine, Gary Zeien, that works exceedingly well in effectively communicating these ideas to audiences over the years. 
+These walkthroughs follow an approach that i adapted from working closely with many architects over the years, most notably Gary Zeien.  I find these work exceedingly well in effectively communicating ideas to audiences over the years. 
 
 In most cases I have captured one or more diagrams to help further explain the subject area including 'subject area view' diagrams where appropriate.
 
@@ -16,4 +16,4 @@ Since, I work with a number of public, and private, cloud providers and architec
 
 I hope you find this approach as helpful as I have.
 
-   - Russ Blaisdell  [russblaisdell@linkedin](https://www.linkedin.com/in/russ-blaisdell-aa7975/)
+   - Russ Blaisdell [russblaisdell@linkedin](https://www.linkedin.com/in/russ-blaisdell-aa7975/)
