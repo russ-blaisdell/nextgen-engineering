@@ -1,16 +1,15 @@
 # API Gateways are the future, VPNs are the past
 
-  That is a bold statement.  Surely many people who love networking and who have spent many years 
-recommending VPNs as part of their architectural solutions will find this statement hard to stomach.  
-While that is not the goal of this post it is important to get people thinking about the potential 
-implications of a world where API Gateways become common across the industry.  It is easy to consider
-API Gateways as just yet another component in the long list of technologies that are deployed as
+  That is a bold statement.  Surely many people who are experienced with networking and who have spent many years
+recommending VPNs as part of their architectural solutions will find this statement hard to believe.
+This post aims to help get people thinking about the potential implications of a world where API Gateways become
+common across the industry.  It is easy to consider API Gateways as just yet another component in the long list of technologies that are deployed as
 part of a solution.  Add a load balancer, add a firewall, add an API Gateway, etc.  However only seeing
 API Gateways in that light leads to missing out on the additional security controls that an API Gateway
-can provide and how these can be leveraged to provide a stronger security posture with better governance than traditional VPNs.
+can provide and how these can be leveraged to create a stronger security posture with better governance than traditional VPNs.
 
 
-## How we use VPNs in general
+## traditional usage of VPN gateways
 
 ### The good
   Historically the way to control programmatic access between two systems in different network realms, such as between 
@@ -39,8 +38,6 @@ interacted with so that you have granular control over what you are exposing as 
   external party you can augment this with requiring a unique SSL certificate be presented with a different certificate used for each integration.  And you get to do all of this
 without ever exposing your raw host/port network access to anyone.  
 
-
- 
 ## Sounds cool what does this look like in action?
 
 ![VPN World](../images/api-gateway/API-Gateway-VPN-VPN.drawio.png)
@@ -50,28 +47,28 @@ without ever exposing your raw host/port network access to anyone.
 internal environment through their VPN.
 
 NOTES:
-Given all the mapping and NATting that often occurs due to a lack of virtual IP space, most configurations are unique IP/PORT pairings and it is not uncommon to have many communications flowing through a single IP with different ports on the source side for a single IP ultimately leading to many IPs on the destination side.  This compression of the addressing space makes the configuration cryptic and prone to mistakes.  Remembering that port 201 on an IP is customer (A) JIRA Server ulimately at port 443 (HTTPS) and that port 301 on the source side is for a different customers server is not obvious.  Thus you need very tight interlock between the network/VPN configuration team and the application configuration team and any disconnect between parties leads to incorrect configuration and data going the wrong way to or from the wrong customer.  
+Given all the mapping and NATting that often occurs due to a lack of virtual IP space, most configurations utilize unique IP/PORT pairings, and it is not uncommon to have many communications flowing through a single IP with different ports on the source side for a single IP ultimately leading to many IPs on the destination side.  This compression of the addressing space makes the configuration cryptic and prone to mistakes.  Remembering that port 201 on an IP is customer (A) JIRA Server is tied to port 443 on the customers IP while port 301 on the same IP is tied to a different customer's server is not obvious at all and tremendously easy to get wrong.  Due to this you need very tight interlock between the network/VPN configuration team and the application configuration team and any disconnect between parties leads to incorrect configuration and data going the wrong way to or from the wrong customer.  
 
 ![API-GATEWAY-in](../images/api-gateway/API-Gateway-VPN-API%20Gateway%20(OUTBOUND).drawio.png)
 
-In an API Gateway outbound to clients, as above, each client has their own API Gateway which is used in lieu of VPNs.  The customer grants our source certificate access to just the APIs they are exposing to us.  There is no routing table.  There is no dealing with virtual IPs, NAT, or using random ports.  Configuration is only 
-necessary at the application layer and it is done against public hostnames and servers with valid certificates.  ]
+In an API Gateway outbound to clients, as above, each client has their own API Gateway which is used in lieu of VPNs.  The customer grants our source certificate access to just the APIs they are exposing to us.  There is no routing table.  There is no dealing with virtual IPs, NAT, no cryptic and error-prone IP/Port pairings.  No networking configuration requirements at all. 
+necessary at the application layer, and it is done against public hostnames and servers with valid certificates.  ]
 
 
 ![API_GATEWAY-INBOUND](../images/api-gateway/API-Gateway-VPN-API%20Gateway%20(INBOUND).drawio.png)
 
-In an API Gateway inbound from clients, as above, each client has their own client side certificate to identify themselves.  At the inbound API Gateway a separate configuration is created for each client where only the certificate unique to that client is authorized access.  Once again no routing, no nat, no cryptic IP/PORT pairings.  Just very clear and clear configuration and all using pubic IP/hostnames all with certificates
+In an API Gateway inbound from clients, as above, each client has their own client side certificate to identify themselves.  At the inbound API Gateway a separate configuration is created for each client where only the certificate unique to that client is authorized access.  Once again no routing, no NAT, no cryptic and error-prone IP/PORT pairings.  Just very clear and clean configuration and all using pubic IP/hostnames all with certificates
 
 
 ## Summary: Layer 3 .vs. Layer 7 who wins....
 It all matters.  If you are working with exposing APIs and enabling programmatic integration then the power of layer 7 gateways makes them
-the best choice for integrations between companies.  The granular controls, the additional security restrictions that control protocols and even which subset of a products API
+the best choice for integrations between parties.  The granular controls, the additional security restrictions that control protocols and even which subset of a products API
 are exposed make a Layer 7 gateway a far superior choice.
 
 What about SSH and exposing my windows remote desktop ?
 If you are dealing with SSH then you are dealing with humans coming into an environment.  That is a high risk scenario that is best suited to VPNs.  Although the best
 recommendation is to use automation to govern your environment.  And leverage a front end, such as Ansible tower, or others, to govern access.  And limit VPN/SSH to only
-catastrophic issues.  SSH is a case where the less you relu upon it the better off you will be on every level.
+catastrophic issues.  SSH is a case where the less you rely upon it the better off you will be on every level.
 
 And Microsoft Remote Desktop?  That is a 1980's approach.  Drop the windows and reach for a great distro of linux :)  
 Windows has its place, but it is rare to find next gen technologies built on Windows instead of being built on Kubernetes
