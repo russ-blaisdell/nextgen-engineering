@@ -60,17 +60,24 @@ necessary at the application layer, and it is done against public hostnames and 
 In an API Gateway inbound from clients, as above, each client has their own client side certificate to identify themselves.  At the inbound API Gateway a separate configuration is created for each client where only the certificate unique to that client is authorized access.  Once again no routing, no NAT, no cryptic and error-prone IP/PORT pairings.  Just very clear and clean configuration and all using pubic IP/hostnames all with certificates
 
 
-## Summary: Layer 3 .vs. Layer 7 who wins....
+## Summary: Layer 3 VPN Gateway .vs. Layer 7 API Gateway who wins....
 It all matters.  If you are working with exposing APIs and enabling programmatic integration then the power of layer 7 gateways makes them
-the best choice for integrations between parties.  The granular controls, the additional security restrictions that control protocols and even which subset of a products API
-are exposed make a Layer 7 gateway a far superior choice.
+the best choice for integrations between parties.  The granular controls, the additional security restrictions that control protocols and even which subset of a services API
+are exposed make a Layer 7 gateway a far superior choice.  And even if supporting older protocols such as SSH you would restrict the VPN gateway solely to SSH traffic while relying
+upon the superior API gateway for as many integrations as possible.
 
-What about SSH and exposing my windows remote desktop ?
+### What about SSH and exposing my windows remote desktop ?
 If you are dealing with SSH then you are dealing with humans coming into an environment.  That is a high risk scenario that is best suited to VPNs.  Although the best
 recommendation is to use automation to govern your environment.  And leverage a front end, such as Ansible tower, or others, to govern access.  And limit VPN/SSH to only
 catastrophic issues.  SSH is a case where the less you rely upon it the better off you will be on every level.
 
 And Microsoft Remote Desktop?  That is a 1980's approach.  Drop the windows and reach for a great distro of linux :)  
 Windows has its place, but it is rare to find next gen technologies built on Windows instead of being built on Kubernetes
+
+## Final short summary
+1. Use API Gateways for all integrations with between parties
+2. Remove SSH and other out of date protocols from your integration list.  Move programmatic integrations to APIs and not to running scripts via SSH
+3. Limit user access to VPNs and limit your dependence on people directly interacting with your systems as much as possible
+
   
 
