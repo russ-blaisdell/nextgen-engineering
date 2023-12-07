@@ -45,10 +45,23 @@ without ever exposing your raw host/port network access to anyone.
    
 ## Sounds cool what does this look like in action?
 
-![Picture](../images/api-gateway/API-Gateway-VPN-VPN.drawio.png)
+![VPN World](../images/api-gateway/API-Gateway-VPN-VPN.drawio.png)
+
+  In a VPN setup as shown above we have a single environment where we are going to establish communications with two customer environments.  In this case we would setup some IPs on the source side as virtual (not real IPs) that the source side VPN will handle.  Traffic for those IPs is then mapped to the correct client side VPN.  Each client side VPN is then further configured as to which IP/Port within the customers network the traffic should route to.
+  Once you have the VPN setup (route table is a simple view of these types of configuration), you then need to setup the actual configuration of the applications at the source so they target the proper IP/Ports on the source side that ultimately route into each customers
+internal environment through their VPN.
+
+NOTES:
+Given all the mapping and NATting that often occurs due to a lack of virtual IP space, most configurations are unique IP/PORT pairings and it is not uncommon to have many communications flowing through a single IP with different ports on the source side for a single IP ultimately leading to many IPs on the destination side.  This compression of the addressing space makes the configuration cryptic and prone to mistakes.  Remembering that port 201 on an IP is customer (A) JIRA Server ulimately at port 443 (HTTPS) and that port 301 on the source side is for a different customers server is not obvious.  Thus you need very tight interlock between the network/VPN configuration team and the application configuration team and any disconnect between parties leads to incorrect configuration and data going the wrong way to or from the wrong customer.  
 
 ![API-GATEWAY-in](../images/api-gateway/API-Gateway-VPN-API%20Gateway%20(OUTBOUND).drawio.png)
 
+In an API Gateway outbound to clients, as above, each client has their own API Gateway which is used in lieu of VPNs.  The customer grants our source certificate access to just the APIs they are exposing to us.  There is no routing table.  There is no dealing with virtual IPs, NAT, or using random ports.  Configuration is only 
+necessary at the application layer and it is done against public hostnames and servers with valid certificates.  ]
+
+
 ![API_GATEWAY-INBOUND](../images/api-gateway/API-Gateway-VPN-API%20Gateway%20(INBOUND).drawio.png)
+
+In an API Gateway inbound from clients, as above, each client has their own client side certificate to identify themselves.  At the inbound API Gateway a separate configuration is created for each client where only the certificate unique to that client is authorized access.  Once again no routing, no nat, no cryptic IP/PORT pairings.  Just very clear and clear configuration and all using pubic IP/hostnames all with certificates
 
   
