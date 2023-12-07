@@ -1,36 +1,35 @@
 # API Gateways are the future, VPNs are the past
 
   That is a bold statement.  Surely many people who love networking and who have spent many years 
-  recommending VPNs as part of their architectural solutions will find this statement hard to stomach.  
-  While that is not the goal of this post it is important to get people thinking about the potential 
-  implications of a world where API Gateways become common across the industry.  It is easy to consider
-  API Gateways as just yet another component in the long list of technologies that are deployed as
-  part of a solution.  Add a load balancer, add a firewall, add an API Gateway, etc.  However only seeing
-  API Gateways in that light leads to missing out on the additional security controls that an API Gateway
-  can provide and how these can be leveraged to provide a strong security posture with better governance.
+recommending VPNs as part of their architectural solutions will find this statement hard to stomach.  
+While that is not the goal of this post it is important to get people thinking about the potential 
+implications of a world where API Gateways become common across the industry.  It is easy to consider
+API Gateways as just yet another component in the long list of technologies that are deployed as
+part of a solution.  Add a load balancer, add a firewall, add an API Gateway, etc.  However only seeing
+API Gateways in that light leads to missing out on the additional security controls that an API Gateway
+can provide and how these can be leveraged to provide a stronger security posture with better governance than traditional VPNs.
 
 
 ## How we use VPNs in general
 
 ### The good
   Historically the way to control programmatic access between two systems in different network realms, such as between 
-two companies, was to establish a VPN.  Wih a VPN we can be sure only the systems at in the source company that can reach the
+two companies, was to establish a VPN.  Wih a VPN we can be sure only systems in the source company that can reach the
 source side of the VPN are able to access any of the systems at the destination end of the VPN.  You can further restrict 
-which set of IPs can be reached and which port(s) are available on each of those IPs.  
+which set of IPs can be reached and which ports on those IPs are available to systems at the source.  
   
 ### The bad
-  While it was possible to restrict the port and IP at the destination it was not possible to restrict what happened at the
-given port and IP.  So while you may have intended to expose the IP and PORT to your JIRA server, as an example, you have no way to restrict the 
-interactions to only access the JIRA API at the given port and IP.  While it should be a JIRA server if there is something listening
-on the port that speaks SSH then, well, you just exposed ssh access to an external company.  While this is not common it just speaks
-to the limitations that exist when operating at layer 3 of the networking stack.
+  While it was possible to restrict the port and IP at the destination it was not possible to restrict what was exposed at the
+given port and IP.  So while you may have intended to expose the IP and PORT to your JIRA server for its API, as an example, you have no way to restrict the 
+interactions to only access the JIRA API at that given port and IP.  If someone configured ssh to be on that port, well your VPN just exposed SSH, since it is just a layer 3 device 
+it is not able to recognize nor limit what is happening on the ip and ports it is exposing, it is, after all, only a dumb gateway.
 
 ### The ugly
   VPNs only stop access to the first hop in the chain.  If any exposed IP/Port pairing supports SSH then everything visible to the first 
 system is now at risk of being detected, attacked or accessed from the first server.  Your risk and exposure only grows from here.  Not allowing SSH
 is great however VPNs do not operate at layer 7, so they do not have the ability to block SSH or any other protocol from being used.  It is also 
 far too easy for someone to make a single typo on a CIDR and instead of exposing 4 IPs in a block they instead exposed 32 IPs, or far more.  The potential
-for mistakes when working with exposing your network via a VPN is quite high and the ability to detect those issues before they are exploited is low.
+for mistakes when working with exposing your network via a VPN is quite high and the ability to detect those issues before they are exploited is low. 
 
 ## So what's this API Gateway thingy?
   An API Gateway is a solution that acts as a bridge to expose and govern access to services within your network.  It operates at layer 7 of the networking stack and is able
@@ -41,8 +40,7 @@ interacted with so that you have granular control over what you are exposing as 
 without ever exposing your raw host/port network access to anyone.  
 
 
-
-   
+ 
 ## Sounds cool what does this look like in action?
 
 ![VPN World](../images/api-gateway/API-Gateway-VPN-VPN.drawio.png)
@@ -64,4 +62,18 @@ necessary at the application layer and it is done against public hostnames and s
 
 In an API Gateway inbound from clients, as above, each client has their own client side certificate to identify themselves.  At the inbound API Gateway a separate configuration is created for each client where only the certificate unique to that client is authorized access.  Once again no routing, no nat, no cryptic IP/PORT pairings.  Just very clear and clear configuration and all using pubic IP/hostnames all with certificates
 
+
+## Summary: Layer 3 .vs. Layer 7 who wins....
+It all matters.  If you are working with exposing APIs and enabling programmatic integration then the power of layer 7 gateways makes them
+the best choice for integrations between companies.  The granular controls, the additional security restrictions that control protocols and even which subset of a products API
+are exposed make a Layer 7 gateway a far superior choice.
+
+What about SSH and exposing my windows remote desktop ?
+If you are dealing with SSH then you are dealing with humans coming into an environment.  That is a high risk scenario that is best suited to VPNs.  Although the best
+recommendation is to use automation to govern your environment.  And leverage a front end, such as Ansible tower, or others, to govern access.  And limit VPN/SSH to only
+catastrophic issues.  SSH is a case where the less you relu upon it the better off you will be on every level.
+
+And Microsoft Remote Desktop?  That is a 1980's approach.  Drop the windows and reach for a great distro of linux :)  
+Windows has its place, but it is rare to find next gen technologies built on Windows instead of being built on Kubernetes
   
+
