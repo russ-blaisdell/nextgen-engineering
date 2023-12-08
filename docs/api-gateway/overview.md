@@ -77,10 +77,6 @@ catastrophic issues.  SSH is a case where the less you rely upon it the better o
 And Microsoft Remote Desktop?  That is a 1980's approach.  Drop the windows and reach for a great distro of linux :)  
 Windows has its place, but it is rare to find next gen technologies built on Windows instead of being built on Kubernetes
 
-## Final short summary
-1. Use API Gateways for all integrations with between parties
-2. Remove SSH and other out of date protocols from your integration list.  Move programmatic integrations to APIs and not to running scripts via SSH
-3. Limit user access to VPNs and limit your dependence on people directly interacting with your systems as much as possible
 
   
 
