@@ -40,6 +40,8 @@ without ever exposing your raw host/port network access to anyone.
 
 ## Sounds cool what does this look like in action?
 
+
+### Traditional Layer 3 Gateway (aka VPN)
 ![VPN World](../images/api-gateway/API-Gateway-VPN-VPN.drawio.png)
 
   In a VPN setup as shown above we have a single environment where we are going to establish communications with two customer environments.  In this case we would setup some IPs on the source side as virtual (not real IPs) that the source side VPN will handle.  Traffic for those IPs is then mapped to the correct client side VPN.  Each client side VPN is then further configured as to which IP/Port within the customers network the traffic should route to.
@@ -49,12 +51,13 @@ internal environment through their VPN.
 NOTES:
 Given all the mapping and NATting that often occurs due to a lack of virtual IP space, most configurations utilize unique IP/PORT pairings, and it is not uncommon to have many communications flowing through a single IP with different ports on the source side for a single IP ultimately leading to many IPs on the destination side.  This compression of the addressing space makes the configuration cryptic and prone to mistakes.  Remembering that port 201 on an IP is customer (A) JIRA Server is tied to port 443 on the customers IP while port 301 on the same IP is tied to a different customer's server is not obvious at all and tremendously easy to get wrong.  Due to this you need very tight interlock between the network/VPN configuration team and the application configuration team and any disconnect between parties leads to incorrect configuration and data going the wrong way to or from the wrong customer.  
 
+### Next Generation Layer 7 Gateway (API Gateway) Outbound flow
 ![API-GATEWAY-in](../images/api-gateway/API-Gateway-VPN-API%20Gateway%20(OUTBOUND).drawio.png)
 
 In an API Gateway outbound to clients, as above, each client has their own API Gateway which is used in lieu of VPNs.  The customer grants our source certificate access to just the APIs they are exposing to us.  There is no routing table.  There is no dealing with virtual IPs, NAT, no cryptic and error-prone IP/Port pairings.  No networking configuration requirements at all. 
 necessary at the application layer, and it is done against public hostnames and servers with valid certificates.  ]
 
-
+### Next Generation Layer 7 Gateway (API Gateway) Inbound flow
 ![API_GATEWAY-INBOUND](../images/api-gateway/API-Gateway-VPN-API%20Gateway%20(INBOUND).drawio.png)
 
 In an API Gateway inbound from clients, as above, each client has their own client side certificate to identify themselves.  At the inbound API Gateway a separate configuration is created for each client where only the certificate unique to that client is authorized access.  Once again no routing, no NAT, no cryptic and error-prone IP/PORT pairings.  Just very clear and clean configuration and all using pubic IP/hostnames all with certificates
