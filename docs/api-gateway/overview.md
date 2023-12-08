@@ -43,7 +43,7 @@ far too easy for someone to make a single typo on a CIDR and instead of exposing
 for mistakes when working with exposing your network via a VPN is quite high and the ability to detect those issues
 before they are exploited is low.
 
-## So what's this API Gateway thingy?
+## So what's this API Gateway thing
 
 An API Gateway is a solution that acts as a bridge to expose and govern access to services within your network. It
 operates at layer 7 of the networking stack and is able
