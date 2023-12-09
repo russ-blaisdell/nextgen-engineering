@@ -43,7 +43,7 @@ far too easy for someone to make a single typo on a CIDR and instead of exposing
 for mistakes when working with exposing your network via a VPN is quite high and the ability to detect those issues
 before they are exploited is low.
 
-## So what's this API Gateway thing
+## So what's this API Gateway 
 
 An API Gateway is a solution that acts as a bridge to expose and govern access to services within your network. It
 operates at layer 7 of the networking stack and is able
@@ -112,7 +112,7 @@ restrictions that
 control protocols and even which subset of a services API are exposed make a Layer 7 gateway a far superior choice. And
 even if supporting older protocols such as SSH you would
 restrict the VPN gateway solely to SSH traffic while relying upon the superior API gateway for as many integrations as
-possible.
+possible. 
 
 ### What about SSH and exposing my windows remote desktop ?
 
