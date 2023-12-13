@@ -23,6 +23,7 @@ nav:
   - About: about/who-am-i.md
   - API Gateways: api-gateway/overview.md
   - Kafka multi-tenant pattern: kafka-sync/overview.md
+  - Hyperscalers: hyperscaler-governance/overview.md
 
 # Project information
 site_name: Nextgen Engineering
