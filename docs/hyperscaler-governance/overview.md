@@ -19,6 +19,14 @@ The above are just a few of the many forms of governance teams seek for their cl
 all of the various forms of governance but instead to focus on how to manage a governance lifecycle where policies will evolve over time
 and to enable various independent development and operations groups to work together in rolling out these changes in a successful manner.
 
+## Engineering Goals
+
+ The  following are some common operational goals for teams:
+
+1. Risk Avoidance - Never do anything in production that was not done previously in a lesser environment
+2. Fast and Flat - Avoid layer insertion, request forms, service now and other antiquated patterns
+3. Self Governing - Seek to self manage, govern, and automate all operational activities
+
 ## Overview
 ![AWS Overview](../images/hyperscaler-governance/Hyperscaler-Operational-Management-Amazon.drawio.png)
 
