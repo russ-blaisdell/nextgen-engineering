@@ -21,11 +21,11 @@ and to enable various independent development and operations groups to work toge
 
 ## Engineering Goals
 
- The  following are some common operational goals for teams:
+ The following are some common operational goals for engineering and operations teams:
 
-1. Risk Avoidance - Never do anything in production that was not done previously in a lesser environment
-2. Fast and Flat - Avoid layer insertion, request forms, service now and other antiquated patterns
-3. Self Governing - Seek to self manage, govern, and automate all operational activities
+1. Outage Avoidance - Never do anything in production that was not done previously in a lower environment
+2. Fast - Automate everything, no manual steps, no service now, no old world IT/ITIL Service Management
+3. Flat - Push decision-making down to the lowest appropriate level
 
 ## Overview
 ![AWS Overview](../images/hyperscaler-governance/Hyperscaler-Operational-Management-Amazon.drawio.png)
