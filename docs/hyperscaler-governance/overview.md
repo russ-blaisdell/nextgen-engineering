@@ -83,6 +83,21 @@ In this example sprints are used as the recommended cadence (sprints normally be
 ![AWS Step Three](../images/hyperscaler-governance/Hyperscaler-Operational-Management-AWS%20-%20Policy%20Rollout%20-%20Step%203.drawio.png)
 
 
+## Google
+![Google](../images/hyperscaler-governance/Hyperscaler-Operational-Management-Google.drawio.png)
+ 
+  Google cloud's Orgnization structure is very similar to Amazons.  In google cloud Folders play a similar role to Organization Units in Amazon.  Projects within Google
+are similar to accounts.  Thus the same overall structure and model that is used with Amazon is easily created within Google.
+
+
+### Links
+* [Google Resource Manager](https://cloud.google.com/resource-manager)
+* [Google Folders](https://cloud.google.com/resource-manager/docs/creating-managing-folders)
+* [Google Organizational Policy](https://cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies)
+* [Google IAM Policy](https://cloud.google.com/iam/docs/policies)
+* [Google Project Access Control](https://cloud.google.com/resource-manager/docs/access-control-proj)
+* [Google Organization Access Control](https://cloud.google.com/resource-manager/docs/access-control-org)
+
 
   
 
