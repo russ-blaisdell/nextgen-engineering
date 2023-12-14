@@ -1,10 +1,12 @@
-# Hyperscaler Account/Project/Subscription Governance
+# Hyperscaler Governance
 
   Enabling teams to adopt and embrace the hyperscalers while concurrently applying security and governance can easily
 be seen as two conflicting goals.  And based on how it is approached it often is for many teams.  However, that need not
 be the case.  By incorporating the latest DevOps and GitOps approaches teams can reach a balance that provides good 
 governance while also enabling teams to operate independently and enabling them to leverage the best of the hyperscalers. 
   
+ This blog is for governance of AWS Accounts, Google Projects, and Azure Subscriptions
+
 ## Governance Goals
 
  The following are some common governance goals for teams:
@@ -69,7 +71,7 @@ revenue and opportunity based on the scale of the outage.
 
 
 
-# Rollout
+## Rollout
 The following are the recommended steps for handling changes to policy across an enterprise.
 In this example sprints are used as the recommended cadence (sprints normally being one or two weeks in duration) 
 
