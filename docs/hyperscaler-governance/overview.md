@@ -7,7 +7,9 @@ governance while also enabling teams to operate independently and enabling them 
   
  This blog is for governance of AWS Accounts, Google Projects, and Azure Subscriptions
 
-## Governance Goals
+## Goals
+
+### Governance Goals
 
  The following are some common governance goals for teams:
 
@@ -17,17 +19,18 @@ governance while also enabling teams to operate independently and enabling them 
 1. Security - Ensure proper security monitoring tools are used to detect breaches of the security
 1. Security - Ensure only security team approved cloud services are used by teams
 
-The above are just a few of the many forms of governance teams seek for their cloud adoption.  This blog is not intended to cover
-all of the various forms of governance but instead to focus on how to manage a governance lifecycle where policies will evolve over time
-and to enable various independent development and operations groups to work together in rolling out these changes in a successful manner.
-
-## Engineering Goals
+### Engineering Goals
 
  The following are some common operational goals for engineering and operations teams:
 
 1. Outage Avoidance - Never do anything in production that was not done previously in a lower environment
 2. Fast - Automate everything, no manual steps, no service now, no old world IT/ITIL Service Management
 3. Flat - Push decision-making down to the lowest appropriate level
+
+### Summary
+  The above are just a few of the many forms of goals the teams have for their cloud adoption.  This blog is not intended to cover
+all of the goals but instead to focus on how to manage a governance lifecycle where policies will evolve over time
+and to enable various independent development and operations groups to work together in rolling out these changes in a successful manner.
 
 ## Overview
 ![AWS Overview](../images/hyperscaler-governance/Hyperscaler-Operational-Management-Amazon.drawio.png)
