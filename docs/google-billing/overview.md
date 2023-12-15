@@ -57,7 +57,7 @@ for our services which ran under these projects.
 
 <br/>
   Fortunately we had our projects admins in our operations team who located the lack of billing account information and reconnected these from
-within the individual projects.  We reached out to our finance and the organization admins however neither are part of operations and none are on 24x7 pager duty rotation.
+within the individual projects.  We reached out to our finance team and the organization admins however neither are part of operations and none are on 24x7 pager duty rotation.
 We were very fortunate to have each project admin with the ability to update these settings, so we could recover from this issue in a timely fashion.
 
 
