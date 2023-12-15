@@ -24,6 +24,7 @@ nav:
   - API Gateways: api-gateway/overview.md
   - Kafka multi-tenant pattern: kafka-sync/overview.md
   - Hyperscalers: hyperscaler-governance/overview.md
+  - Cloud Billing: google-billing/overview.md
 
 # Project information
 site_name: Nextgen Engineering

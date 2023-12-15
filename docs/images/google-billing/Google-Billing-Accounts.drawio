@@ -1,0 +1,477 @@
+<mxfile host="Electron" modified="2023-12-15T22:26:17.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="KO-yipaziRe_AK-Uv6rI" version="22.1.2" type="device" pages="6">
+  <diagram name="Normal" id="_JlKFoKSl8Q0HDnAmmJO">
+    <mxGraphModel dx="1114" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-1" value="Google Organization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-2" value="Google Project 603" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-3" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-4" value="Project 603" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-5" value="Project 613" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="1" source="Xf9bG-NufI4rNJYfHQDE-7" target="Xf9bG-NufI4rNJYfHQDE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-7" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-8" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-9" value="Google Project 613" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-10" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-11" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-12" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-13" value="Project 748" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-14" value="Google Project 748" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-15" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-16" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="1" source="Xf9bG-NufI4rNJYfHQDE-10" target="Xf9bG-NufI4rNJYfHQDE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="490" as="sourcePoint" />
+            <mxPoint x="435" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="555" />
+              <mxPoint x="420" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xf9bG-NufI4rNJYfHQDE-15" target="Xf9bG-NufI4rNJYfHQDE-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="530" as="sourcePoint" />
+            <mxPoint x="670" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="445" />
+              <mxPoint x="810" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-19" value="Project Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="195" y="630" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf9bG-NufI4rNJYfHQDE-21" value="Organization Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONsNgFyIFLxIc42vj5Ha-1" value="Project Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="620" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Problem" id="TVzL0sAX0sTYdFooW7ah">
+    <mxGraphModel dx="1114" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-0" />
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-1" parent="7rHQsu7MNQVlQ9YtPazt-0" />
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-2" value="Google Organization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="240" y="200" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-3" value="Google Project 603" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="40" y="450" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-4" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="280" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-5" value="Project 603" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="280" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-6" value="Project 613" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="280" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="7rHQsu7MNQVlQ9YtPazt-1" source="7rHQsu7MNQVlQ9YtPazt-8" target="7rHQsu7MNQVlQ9YtPazt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-8" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="150" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-9" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="50" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-10" value="Google Project 613" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="130" y="560" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-11" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="240" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-12" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="140" y="600" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-13" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="470" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-14" value="Project 748" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="470" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-15" value="Google Project 748" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="540" y="450" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-16" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="650" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-17" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="550" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="7rHQsu7MNQVlQ9YtPazt-1" source="7rHQsu7MNQVlQ9YtPazt-11" target="7rHQsu7MNQVlQ9YtPazt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="550" as="sourcePoint" />
+            <mxPoint x="435" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="615" />
+              <mxPoint x="420" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7rHQsu7MNQVlQ9YtPazt-1" source="7rHQsu7MNQVlQ9YtPazt-16" target="7rHQsu7MNQVlQ9YtPazt-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="590" as="sourcePoint" />
+            <mxPoint x="670" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="505" />
+              <mxPoint x="810" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TolXZi2mIblSmOYhIdTc-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7rHQsu7MNQVlQ9YtPazt-1" source="7rHQsu7MNQVlQ9YtPazt-21" target="7rHQsu7MNQVlQ9YtPazt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7rHQsu7MNQVlQ9YtPazt-21" value="Organization Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="415" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BGqrmo4SD-JZ5lS2UmvU-0" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="797" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGqrmo4SD-JZ5lS2UmvU-1" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="7rHQsu7MNQVlQ9YtPazt-1">
+          <mxGeometry x="400" y="400" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Result" id="HP09_kD_CExzDn206NJg">
+    <mxGraphModel dx="1114" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-0" />
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-1" parent="8rap7vv4Kn8aPEZ1GWsm-0" />
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-2" value="Google Organization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="240" y="140" width="380" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-3" value="Google Project 603" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="40" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-4" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="280" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-5" value="Project 603" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="280" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="280" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="8rap7vv4Kn8aPEZ1GWsm-1" source="8rap7vv4Kn8aPEZ1GWsm-8" target="8rap7vv4Kn8aPEZ1GWsm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-8" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="150" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-9" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="50" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-10" value="Google Project 613" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="130" y="500" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-11" value="(null)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="240" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-12" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="140" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-13" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="470" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="470" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-15" value="Google Project 748" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="540" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-16" value="(null)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="650" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-17" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="550" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-20" value="Project Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="110" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rap7vv4Kn8aPEZ1GWsm-21" value="Organization Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8rap7vv4Kn8aPEZ1GWsm-1">
+          <mxGeometry x="310" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Result-2" id="-Fu3jqTkdL8-9177KuWx">
+    <mxGraphModel dx="1114" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-0" />
+        <mxCell id="4_jNJpcGY45eby-tGbHG-1" parent="4_jNJpcGY45eby-tGbHG-0" />
+        <mxCell id="4_jNJpcGY45eby-tGbHG-2" value="Google Organization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="240" y="140" width="380" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-3" value="Google Project 603" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="40" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-4" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="280" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-5" value="Project 603" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="280" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="280" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="4_jNJpcGY45eby-tGbHG-1" source="4_jNJpcGY45eby-tGbHG-8" target="4_jNJpcGY45eby-tGbHG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-8" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="150" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-9" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="50" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-10" value="Google Project 613" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="130" y="500" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-11" value="(null)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="240" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-12" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="140" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-13" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="470" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="470" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-15" value="Google Project 748" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="540" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-16" value="(null)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="650" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-17" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="550" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-18" value="Project Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="110" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-19" value="Organization Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="310" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-20" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="150" y="495" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4_jNJpcGY45eby-tGbHG-21" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="4_jNJpcGY45eby-tGbHG-1">
+          <mxGeometry x="560" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Recovery" id="KfM5uyfbeXSa2I3ynoOq">
+    <mxGraphModel dx="1114" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="84pULNr6SloyfgQe5jjS-0" />
+        <mxCell id="84pULNr6SloyfgQe5jjS-1" parent="84pULNr6SloyfgQe5jjS-0" />
+        <mxCell id="84pULNr6SloyfgQe5jjS-2" value="Google Organization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="240" y="140" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-3" value="Google Project 603" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="40" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-4" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="280" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-5" value="Project 603" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="280" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-6" value="Project 613" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="280" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="84pULNr6SloyfgQe5jjS-1" source="84pULNr6SloyfgQe5jjS-8" target="84pULNr6SloyfgQe5jjS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-8" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="150" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-9" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="50" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-10" value="Google Project 613" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="130" y="500" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-11" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="240" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-12" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="140" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-13" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="470" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-14" value="Project 748" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="470" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-15" value="Google Project 748" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="540" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-16" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="650" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-17" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="550" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="84pULNr6SloyfgQe5jjS-1" source="84pULNr6SloyfgQe5jjS-11" target="84pULNr6SloyfgQe5jjS-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="490" as="sourcePoint" />
+            <mxPoint x="435" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="555" />
+              <mxPoint x="420" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="84pULNr6SloyfgQe5jjS-1" source="84pULNr6SloyfgQe5jjS-16" target="84pULNr6SloyfgQe5jjS-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="530" as="sourcePoint" />
+            <mxPoint x="670" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="445" />
+              <mxPoint x="810" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_Kp5SHk9dZazbYHmN43-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84pULNr6SloyfgQe5jjS-1" source="84pULNr6SloyfgQe5jjS-20" target="84pULNr6SloyfgQe5jjS-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="630" />
+              <mxPoint x="250" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_Kp5SHk9dZazbYHmN43-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="84pULNr6SloyfgQe5jjS-1" source="84pULNr6SloyfgQe5jjS-20" target="84pULNr6SloyfgQe5jjS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84pULNr6SloyfgQe5jjS-20" value="Project Admin/User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="510" y="670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zYwkep6K-fItIfZMRuja-0" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b style=&quot;&quot;&gt;+&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="390" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zYwkep6K-fItIfZMRuja-1" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b style=&quot;&quot;&gt;+&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="84pULNr6SloyfgQe5jjS-1">
+          <mxGeometry x="780" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Final" id="87FV0onFWt7HW1pFVxw3">
+    <mxGraphModel dx="1114" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-0" />
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-1" parent="TuaFKnSgvRDyHXOnEMkf-0" />
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-2" value="Google Organization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="240" y="140" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-3" value="Google Project 603" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="40" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-4" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="280" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-5" value="Project 603" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="280" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-6" value="Project 613" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="280" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="TuaFKnSgvRDyHXOnEMkf-1" source="TuaFKnSgvRDyHXOnEMkf-8" target="TuaFKnSgvRDyHXOnEMkf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-8" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="150" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-9" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="50" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-10" value="Google Project 613" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="130" y="500" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-11" value="Billing Account One" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="240" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-12" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="140" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-13" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="470" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-14" value="Project 748" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="470" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-15" value="Google Project 748" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="540" y="390" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-16" value="Billing Account Two" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="650" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-17" value="Billing Account =" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TuaFKnSgvRDyHXOnEMkf-1">
+          <mxGeometry x="550" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;" edge="1" parent="TuaFKnSgvRDyHXOnEMkf-1" source="TuaFKnSgvRDyHXOnEMkf-11" target="TuaFKnSgvRDyHXOnEMkf-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="490" as="sourcePoint" />
+            <mxPoint x="435" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="555" />
+              <mxPoint x="420" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuaFKnSgvRDyHXOnEMkf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=2;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TuaFKnSgvRDyHXOnEMkf-1" source="TuaFKnSgvRDyHXOnEMkf-16" target="TuaFKnSgvRDyHXOnEMkf-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="530" as="sourcePoint" />
+            <mxPoint x="670" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="445" />
+              <mxPoint x="810" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
