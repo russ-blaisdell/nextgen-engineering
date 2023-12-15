@@ -57,8 +57,8 @@ for our services which ran under these projects.
 
 <br/>
   Fortunately we had our projects admins in our operations team who located the lack of billing account information and reconnected these from
-with the individual projects.  We reached out to our finance and the organization admins however neither are part of operations and none are on 24x7 pager duty rotation.
-  We were very fortunate to have each project admin with the ability to update these settings so we could recover from this issue in a timely fashion.
+within the individual projects.  We reached out to our finance and the organization admins however neither are part of operations and none are on 24x7 pager duty rotation.
+We were very fortunate to have each project admin with the ability to update these settings, so we could recover from this issue in a timely fashion.
 
 
 ### Lesson learned
@@ -68,4 +68,4 @@ In the old world if the finance team failed to pay a vendor you would know about
 However, in the cloud, even a simple mistake by finance can render you down in minutes. 
   
   Having to explain to your executive team on how you enabled a finance team to take down a key company service on your watch is not a good conversation. 
-It is far better to treat your finance team well, ensure any changes are carefully coordinated and that your operations team is ready and able to fix any billing config mistakes quicky if they arise.
+It is far better to treat your finance team well, ensure any changes are carefully coordinated and that your operations team is ready and able to fix any billing config mistakes quickly if and when they arise.
