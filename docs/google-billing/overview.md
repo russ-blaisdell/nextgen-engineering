@@ -33,21 +33,29 @@ as those used to recover from it.
 
 ### Step 1 - Problem
 ![Step 1](../images/google-billing/Google-Billing-Accounts-Problem.drawio.png)
+
+<br/>
   At 3:30 AM on December 1st an administrator went to the organization in google and removed a number of projects from their associated
 billing accounts.
 
 ### Step 2 - Result
 ![Step 2](../images/google-billing/Google-Billing-Accounts-Result.drawio.png)
+
+<br/>
   With the relationship between the billing account and the projects removed at the organization left each project without any
 valid billing information.
 
 ### Step 3 - Outage
 ![Step 3](../images/google-billing/Google-Billing-Accounts-Result-2.drawio.png)
+
+<br/>
   With no valid billing account the google cloud services shutdown for this project and as soon as they shut down this caused an outage
 for our services which ran under these projects.
 
 ### Step 4 - Recovery
 ![Step 4](../images/google-billing/Google-Billing-Accounts-Recovery.drawio.png)
+
+<br/>
   Fortunately we had our projects admins in our operations team who located the lack of billing account information and reconnected these from
 with the individual projects.  We reached out to our finance and the organization admins however neither are operations nor on 24x7 pager duty rotation
 having each project admin with the ability to update these settings was crucial to our success in resolving the outage.
