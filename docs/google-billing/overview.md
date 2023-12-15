@@ -63,5 +63,9 @@ with the individual projects.  We reached out to our finance and the organizatio
 
 ### Lesson learned
   It is critical for the operations team to coordinate changes to the billing information with finance and to ensure that no billing accounts are ever
-removed or altered without a very careful review by all involved parties.  In this case it was a mistake and oversight.  Given the level of automation
-that exists in the cloud even a erroneous billing account edit can easily render your productions systems out. 
+removed or altered without a very careful review by all involved parties.  Given the level of automation that exists in the cloud even a erroneous billing account edit can easily render your productions systems out.
+In the old world if the finance team failed to pay a vendor you would know about long before the service was shutdown.  
+However, in the cloud, even a simple mistake by finance can render you down in minutes. 
+  
+  Having to explain to your executive team on how you enabled a finance team to take down a key company service on your watch is not a good conversation. 
+It is far better to treat your finance team well, ensure any changes are carefully coordinated and that your operations team is ready and able to fix any billing config mistakes quicky if they arise.
