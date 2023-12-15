@@ -42,7 +42,7 @@ billing accounts.
 ![Step 2](../images/google-billing/Google-Billing-Accounts-Result.drawio.png)
 
 <br/>
-  With the relationship between the billing account and the projects removed at the organization left each project without any
+  With the relationship between the billing account and the projects removed at the organization this then left each project without any
 valid billing information.
 
 ### Step 3 - Outage
