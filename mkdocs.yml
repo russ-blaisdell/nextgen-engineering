@@ -21,10 +21,14 @@
 nav:
 #  - Basics: basics/Purpose.md
   - About: about/who-am-i.md
-  - API Gateways: api-gateway/overview.md
-  - Kafka multi-tenant pattern: kafka-sync/overview.md
-  - Hyperscalers: hyperscaler-governance/overview.md
-  - Cloud Billing: google-billing/overview.md
+  - APIs:
+    - API Gateways: api-gateway/overview.md
+    - APIKey and Bearer Tokens: bearer-token/overview.md
+  - Events:
+    - Kafka multi-tenant pattern: kafka-sync/overview.md
+  - Hyperscalers:
+    - Governance: hyperscaler-governance/overview.md
+    - Cloud Billing: google-billing/overview.md
 
 # Project information
 site_name: Nextgen Engineering
@@ -131,9 +135,6 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
