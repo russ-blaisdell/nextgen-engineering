@@ -22,10 +22,10 @@ nav:
 #  - Basics: basics/Purpose.md
   - About: about/who-am-i.md
   - APIs:
+    - API First: bearer-token/api-first.md
     - API Gateways: api-gateway/overview.md
     - Bearer Tokens: bearer-token/overview.md
     - APIKeys and Bearer Tokens: bearer-token/api-key.md
-    - UIs and APIs: bearer-token/ui.md
   - Events:
     - Kafka multi-tenant pattern: kafka-sync/overview.md
   - Hyperscalers:
