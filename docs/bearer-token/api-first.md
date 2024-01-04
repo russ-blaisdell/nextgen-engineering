@@ -17,9 +17,9 @@ some server that is serving up its API.  What is most interesting in this patter
   
 
 ## API First
-  API first, imho, is focusing on building a solution where the API that is exposed for your own UI is also made available to all others to use.  This means that other interfaces can be built upon your API
-that you never envisioned.  This allow automation to be built leveraging your apis that you never envisioned.  By focusing on having a robust API that fully and correct supports the CRUD lifecycle of your
-resources and data you are enabling the construction of many solutions all built upon your API.  By ensuring your UI is built atop that same API means you are truly exposing a full robust API as a true API
+  API first, imho, is focusing on building a solution where the API that is exposed for your own UI is also made available to all others to use as they wish.  This means that other interfaces can be built upon your API
+that you never envisioned.  This allows automation to be built leveraging your apis that you never envisioned.  By focusing on having a robust API that fully and correct supports the CRUD lifecycle of your
+resources and data you are enabling the construction of an infinite set of solutions all built upon your API.  By ensuring your UI is built atop that same API means you are truly exposing a full robust API as a true API
 First solution.
 
 ### Summary
