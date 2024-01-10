@@ -13,13 +13,13 @@ is commonly used in our industry.  So now how about API Keys?
 
 
 ## Authentication Pattern with JWT Tokens
-![Bearer Token Auth Pattern](../images/bearertoken/bearer-token-auth.png)
+![Bearer Token Auth Pattern](../images/bearertoken/Bearer-Token-Auth.png)
 
 As can be seen above each service independently validates the JWT token.  There is no need for any central service to process the JWT as it is a signed entity and the only knoweldge
 that each service requires is to know which JWT token signer to trust. 
 
 ## Authentication Pattern with API Keys
-![API Key Auth Pattern](../images/bearertoken/API-key-auth.png)
+![API Key Auth Pattern](../images/bearertoken/APIKey-Auth.png)
 
 When systems all support accepting APIKeys directly against each API this requires all services to utilize a central service to validate the API key for every single API call made 
 across the complete ecosystem.  This is a great deal of unnecessary load and tight coupling.
@@ -31,7 +31,7 @@ making API calls against the various services.  Each service can then validate t
 bearer tokens from incoming API calls from the browser for normal user interactions.  Each system/service/application is also free to apply their own authorization as they see fit.  Nice
 and loosely coupled.
 
-![API Key to Bearer Token](../images/bearertoken/apikey-to-bearer-token.png)
+![API Key to Bearer Token](../images/bearertoken/APIKEY-to-Bearer-Token.png)
 
   In the above example the API key is presented to the central IAM (Identity Access Management) system and this system validates the API Key and generates a signed bearer token that the
 caller then uses to authenticate itself in subsequent calls to the various apis across the complete ecosystem.

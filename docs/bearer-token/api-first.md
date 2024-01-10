@@ -9,7 +9,7 @@ applications consist of a program running in the users browser on their device. 
 calls to those servers.  Gone are the days of a server doing all the processing on the backend.  Shifting some of the processing to the users browser allows for far more responsive, scalable and capable applications to be produced.
 
   The following is a rendering of a simple application which is going to make an API call to its backend servers to get some data that it will then render to the user.
-  ![Bearer Token Auth Pattern](../images/bearertoken/ui-bearer-token.png)
+  ![Bearer Token Auth Pattern](../images/bearertoken/UI-Bearer-Token-Auth.png)
 
 
   As can be seen above the program running in the browser is constructing and making an API call just like any other system would.  The program running in the browser sets an authorization header and makes the call to 

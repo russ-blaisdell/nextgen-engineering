@@ -7,7 +7,7 @@
 includes a link to their public key in the signed token and the receiver can fetch that public key and cache it.  Someone accepting a JWT needs to have a whitelist of which signers they 
 trust.  This is most easily done by whitelisting the single URL for the public key for the signer you trust.  The url is the `jku` element of the JWS portion of the JWT.
 
-![JWT Token Breakdown](../images/bearertoken/bearer-token.png)
+![JWT Token Breakdown](../images/bearertoken/JSON-Web-Token.png)
 
 #### JWTBreakDown
 1. This is the header and specifies they type of JWT
@@ -33,7 +33,7 @@ compromise.  To guard for this a consumer should cache the public key they recei
 changed they can continue to use the key.  
 
 
-![JWKS](../images/bearertoken/jwt-jku.png)
+![JWKS](../images/bearertoken/JWKS.png)
 
   The above is a simplified view of how JWKS is used between a JWT producer/signer that supposed JWKS and the consumer of those JWT tokens.  
 
