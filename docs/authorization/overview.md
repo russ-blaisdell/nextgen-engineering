@@ -4,24 +4,61 @@
 independent but related.  As one of my very smart colleagues always reminds me, terms matter. Establishing the proper
 terms and distinguishing between each of them is essential to enabling the best solutions.
 
+
+## Resources
+  In any system or application the authorization model, when done appropriately, will focus on the data or resources that the system or
+application operates upon.  For sharepoint the resource type would be "file" and authorization for a sharepoint server would focus on who is 
+authorized to Create files, who can Read files, who can Update files and who can Delete files.
+
+### Advanced Step One
+  Obviously only operating on the files would have left sharepoint a very weak solution.  Thus another key resource in this example is folders.
+Once again who can Create folders, who can Read Folders, Who can Update folders and who can delete folders is another level of necessary
+authorization.
+
+### Getting Fine Grained
+  Before we can make Sharepoint into a fully functioning solution we need to not only control the CRUD operations of files and folders as resource types
+  (.i.e User A can create a Folder or Delete a Folder).  We need to support applying these authorizations at the individual instance level of these resources.
+So now we can say user A can Read Folder "General Info" however only User B can read folder "Top Secret".  This fine grained authorization is needed in most 
+systems as the set of users increases and the amount of resources that the system manages grows.  i.e. In a sharepoint deployment with only one folder have fine
+grained authorization is unlikely to be critical, expand that to 50 users and 200 folders and it becomes essential.
+
+## Features
+  In any system or application the concept of features are present.  These are functional areas of the solution that produce a 
+distinct value and business outcome for its users.  As systems evolve they will grow features and in time it is common for people
+to group the individual features together.  Some simple examples are a tiered model such as "Basic", "Intermediate" and "Advanced".  
+  Others will move to a "base" and then a set of independent feature groups in our sharepoint example this might include "graphing" 
+and "analytics" where the graphing package/feature set allowed for draw.io and visio built in while the analytics included spreadsheet/excel like capabilities.  
+
+
 ## Authorization
-This is the concept most people get, and one they often confuse and conflate with the others.  
+This is the concept most people get, and one they often confuse and conflate with the others.  Authorization is all about the resources
+as defined above.  And, as mentioned in our sharepoint example, it is rare that a user is forbidden (403) from asking for the list of files or folders
+and instead it is most common that the set of files or folders they see are less than the total set within the system.  
 
-What distinguished it from the other concepts:
+### Pro tip:
+  It is often best that if a user asks for a specific file or folder they are not authorized to read that you not return 403 but instead return 404.
+If you return 403 you now leaked to that unauthorized user that something they should not know about exists.  Returning 404 ensures you did not 
+validate a fishing expedition.  Github is a great example of this.  If you are not authorized to access a repo you will get a 404 when you ask for it and not a 403.
 
-<span style="color:blue"> Authorization is normally a personal thing.  And this means that in any normal system with multiple users some users will be
-authorized for some things that others are not.  This also means that when a user finds they are not authorized to view, create, modify
-or delete something in the system then they will seek out people who are or seek to get their admin to grant them the necessary authorization
-so they can complete a given operation.</span>
+### What distinguished it from the other concepts:
+
+<span style="color:blue"> Authorization is normally a personal state.  And this means that in any normal system with multiple users some users will be
+authorized for operations against certain resources while others are not.  This also means that when a user finds they are not authorized to view, create, modify
+or delete a resource or resource type in the system then they will seek out people who are authorized or seek out to have someone grant them the necessary authorization.</span>
 
 ## Entitlement
-This is the concept where a system can provide many capabilities for end users and where some of those capabilities are optional.  This is more frequently
-the case where a system offers a base set of features to users at one price, possibly free, however additional features and capabilities require that someone
-request/purchase and become "entitled" to these new capabilities.
+This is the concept where a system can provide many features for end users and where some of those features are optional.  This is most frequently
+the case where a system offers a base set of features to users at one price, possibly free, however additional features require that someone
+request/purchase and become "entitled" to these use these additional features.
 
-What distinguished it from the other concepts:
+### Pro tip:
+  Where possible you will want to make features visible to users to inform them of their existence in the hopes of driving up interest and
+ultimately leading customers to purchase/acquire these.  You also want to not overload the end user as it is easy to annoy and offering to hide
+this information is one way to not overwhelm and annoy your customers, always something to be avoided.
 
-<span style="color:blue"> Entitlement is normally a system-wide thing.  If, when using a system you see that you are not entitled to use a certain feature this
+### What distinguished it from the other concepts:
+
+<span style="color:blue"> Entitlement is normally a system-wide state.  If, when using a system you see that you are not entitled to use a certain feature this
 leads you to seek out an evaluation of the capability and the costs and to then work to get your company to pay to acquire entitlement to the given capability
 and become entitled to use it.</span>
 
