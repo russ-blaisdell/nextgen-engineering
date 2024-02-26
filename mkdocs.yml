@@ -26,6 +26,7 @@ nav:
     - API Gateways: api-gateway/overview.md
     - Bearer Tokens: bearer-token/overview.md
     - APIKeys and Bearer Tokens: bearer-token/api-key.md
+    - Multi-Factor Auth for APIs: api-gateway/mfa-for-apis.md
   - Authorization:
     - Authorization, Entitlement and Visibility: authorization/overview.md
   - Events:
