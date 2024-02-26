@@ -1,25 +1,31 @@
 # MFA (Multi-Factor Authentication) for APIKeys 
 
-  Adding MFA to your apikey strategy can dramatically increase the security of your solution.  
+  Adding MFA to your apikey strategy can dramatically increase the security of your solution.  While this can be very straightforward
+when you host single tenant solutions, the complex quickly rises when operating a sharded multi-tenant/multi-customer solution.  The 
+following blog explains the design I landed on, for now, to add MFA to our APIs.
   
 
-## MFA for Carbon 
-  I am sure most everyone is familiar with MFA for user logins where you will receive a text message with a code you 
-need to enter or where, if you are lucky, you can use biometrics like the fingerprint reader on your phone or laptop.  Worst
-case you get the dreaded e-mail to click after waiting for it to finally arrive.
+## MFA for Carbon (aka Humans)
+  I am sure everyone is familiar with MFA for user logins where you need to receive a text message with a code and you need to provide that 
+code along with your password to successfully authenticate.  Other systems can use biometrics, like the fingerprint scanner on your phone or
+laptop.  In the worst case you get stuck using e-mail and waiting for the e-mail to arrive so you can "click the link".  
 
-## MFA for Silicon
-  So we could get our app to read an e-mail inbox via pop3 or imap, there is also a better way.  And no it is not 
-registering a phone number for text messages :).  Enter client side certificates.  Client side certificates are an excellent
-way for a program to identify itself uniquely.  When coupled with APIKEY Authentication you now have multiple authentication
-factors (an API KEY and a Certificate) that must both match forming MFA for your APIKEY Strategy and impressing all your friends
-and family.  
+## MFA for Silicon (aka computers)
+  Sure, so now we all agree on what MFA looks like for humans, does this mean we just replicate this same model for our APIs?  
+We could surely register some e-mail addressed with gmail and then use IMAP or POP3 to retrieve our email and even click the 
+link using chrome on linux using test drivers.  So yes, we could implement MFA for computers just like we do with humans however
+that seems pretty 🤮.  Instead of going down that path we can use other technologies which are more elegant and suitable to our 
+goal of adding MFA, we can use client certificates. Client side certificates are an excellent way for a program to identify itself 
+uniquely.  As these certificates are signed and each has a unique signature it is very easy to incorporate these into your API
+strategy to add a second level of authentication for your APIs and in doing so your APIs are now MFA.
 
 ## Tying it together in a multi-tenant world
   In a single tenant (i.e. Customer) deployment world you can easily setup each independent customer environment to require
 and check for only the client certificates associated with that single customer.  Thus adding MFA to your APIKEY strategy when
-running independent software deployments for each customer is very straightforward.  If you host multi-tenant which has you 
-supporting multiple customers all using a single instance of your software then things quickly get more interesting and complex.
+running independent software deployments for each customer is very straightforward.  mTLS (mutual TLS) is then a commonly supported
+pattern in SaaS service that host independent services for each customer.  ServiceNow, Atlas Mongo and many others provide mTLS as each
+instance of their software is deployed and setup for single tenant/customer use.  However, for multi-tenant solutions that are 
+supporting multiple customers all using a single instance of your software things quickly get more interesting and complex.
 
 ## Needs in a multi-tenant deployment
 
